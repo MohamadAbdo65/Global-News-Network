@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.IO;
-using System.Security;
+using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -35,7 +35,8 @@ namespace GlobalNewsNetwork.Globally
                 Score += 1;
 
 
-            string[] CommonPasswords = {
+            HashSet<string> CommonPasswords = new HashSet<string>
+            {
                  "123456", "password", "12345678", "qwerty", "12345",
                  "123456789", "letmein", "123123", "welcome", "admin",
                  "password1", "abc123", "qwerty123", "iloveyou", "sunshine",
@@ -43,14 +44,12 @@ namespace GlobalNewsNetwork.Globally
                  "whatever", "hello123", "access", "monkey", "login"
             };
 
-            foreach (string s in CommonPasswords)
+
+            if (CommonPasswords.Contains(Password))
             {
-                if (Password == s)
-                {
-                    Score = 0;
-                    break;
-                }
+                Score = 0;
             }
+            
 
             if (Score >= 5)
                 return enPasswordStrength.Strong;
