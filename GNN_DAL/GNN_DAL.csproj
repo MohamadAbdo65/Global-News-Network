@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repos\" />
+    <ProjectReference Include="..\GNN_DTOs\GNN_DTOs.csproj" />
   </ItemGroup>
 
 </Project>
