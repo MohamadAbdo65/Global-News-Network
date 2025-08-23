@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business_GlobalNewsNetwork"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalNewsNetwork", "GlobalNewsNetwork\GlobalNewsNetwork.csproj", "{6096AC53-CFEC-4264-AC92-C73C723C5F55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNN_DAL", "GNN_DAL\GNN_DAL.csproj", "{9F738E7E-8379-4CF6-98F2-B783E0154A4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6096AC53-CFEC-4264-AC92-C73C723C5F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6096AC53-CFEC-4264-AC92-C73C723C5F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6096AC53-CFEC-4264-AC92-C73C723C5F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F738E7E-8379-4CF6-98F2-B783E0154A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F738E7E-8379-4CF6-98F2-B783E0154A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F738E7E-8379-4CF6-98F2-B783E0154A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F738E7E-8379-4CF6-98F2-B783E0154A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
