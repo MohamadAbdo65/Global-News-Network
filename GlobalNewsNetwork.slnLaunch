@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "web and api",
+    "Projects": [
+      {
+        "Path": "GNN_API\\GNN_API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "GNN_MVC\\GNN_MVC.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]
