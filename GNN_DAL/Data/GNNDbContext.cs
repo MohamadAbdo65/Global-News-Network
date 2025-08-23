@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GNN_DAL.Data;
 
-public partial class GlobalNewsNetworkContext : DbContext
+public partial class GNNDbContext : DbContext
 {
-    public GlobalNewsNetworkContext(DbContextOptions<GlobalNewsNetworkContext> options)
+    public GNNDbContext(DbContextOptions<GNNDbContext> options)
         : base(options)
     {
     }

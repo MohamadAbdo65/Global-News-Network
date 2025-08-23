@@ -9,9 +9,9 @@ namespace GNN_DAL.Repos
 {
     public class AdminRepo
     {
-        private readonly GlobalNewsNetworkContext _context;
+        private readonly GNNDbContext _context;
 
-        public AdminRepo(GlobalNewsNetworkContext context)
+        public AdminRepo(GNNDbContext context)
         {
             _context = context;
         }
