@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNN_API", "GNN_API\GNN_API.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNN_DTOs", "GNN_DTOs\GNN_DTOs.csproj", "{ECE3103C-DAFB-495B-BC4A-F7F18CD87DC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNN_MVC", "GNN_MVC\GNN_MVC.csproj", "{29932611-1F29-445C-A173-4192E4AEA3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{ECE3103C-DAFB-495B-BC4A-F7F18CD87DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECE3103C-DAFB-495B-BC4A-F7F18CD87DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECE3103C-DAFB-495B-BC4A-F7F18CD87DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29932611-1F29-445C-A173-4192E4AEA3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29932611-1F29-445C-A173-4192E4AEA3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29932611-1F29-445C-A173-4192E4AEA3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29932611-1F29-445C-A173-4192E4AEA3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
